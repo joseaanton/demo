@@ -18,13 +18,8 @@
     <None Include="src\.clang-format" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\demo.cpp">
+    <ClCompile Include="src\app.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\demo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

@@ -14,27 +14,29 @@
     <None Include="src\.clang-format" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\demo.cpp" />
+    <ClCompile Include="src\app.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\demo.h" />
+    <ProjectReference Include="..\demo\demo.vcxproj">
+      <Project>{f4fe288c-eef8-4bc9-ab97-8d75e020590e}</Project>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{f4fe288c-eef8-4bc9-ab97-8d75e020590e}</ProjectGuid>
-    <RootNamespace>demo</RootNamespace>
+    <ProjectGuid>{e92b3629-4826-4baa-ae5d-432d0bcbfafe}</ProjectGuid>
+    <RootNamespace>sandbox</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>demo</ProjectName>
+    <ProjectName>sandbox</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
