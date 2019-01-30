@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "demo\demo.vcxproj", "{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{E92B3629-4826-4BAA-AE5D-432D0BCBFAFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hazel", "hazel\hazel.vcxproj", "{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}.Debug|x64.ActiveCfg = Debug|x64
-		{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}.Debug|x64.Build.0 = Debug|x64
-		{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}.Release|x64.ActiveCfg = Release|x64
-		{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}.Release|x64.Build.0 = Release|x64
 		{E92B3629-4826-4BAA-AE5D-432D0BCBFAFE}.Debug|x64.ActiveCfg = Debug|x64
 		{E92B3629-4826-4BAA-AE5D-432D0BCBFAFE}.Debug|x64.Build.0 = Debug|x64
 		{E92B3629-4826-4BAA-AE5D-432D0BCBFAFE}.Release|x64.ActiveCfg = Release|x64
 		{E92B3629-4826-4BAA-AE5D-432D0BCBFAFE}.Release|x64.Build.0 = Release|x64
+		{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}.Debug|x64.ActiveCfg = Debug|x64
+		{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}.Debug|x64.Build.0 = Debug|x64
+		{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}.Release|x64.ActiveCfg = Release|x64
+		{F4FE288C-EEF8-4BC9-AB97-8D75E020590E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

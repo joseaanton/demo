@@ -16,15 +16,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="src\.clang-format" />
+    <None Include="src\Hazel\.clang-format" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\demo.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\demo.h">
+    <ClInclude Include="src\Hazel\core.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="src\Hazel\App.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\hazel\hazel.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Hazel\App.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

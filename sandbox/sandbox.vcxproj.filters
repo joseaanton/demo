@@ -18,7 +18,7 @@
     <None Include="src\.clang-format" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\app.cpp">
+    <ClCompile Include="src\sandboxApp.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
