@@ -1,4 +1,5 @@
 #include "App.h"
+#include "log.h"
 
 namespace hazel {
 
@@ -8,8 +9,10 @@ App::~App() {
 }
 
 void App::run() {
-	while (true) {
-	};
+	int i = 0;
+	LOG_DEBUG << i;
+	//	while (true) {
+	//	};
 }
 
 }  // namespace hazel
